@@ -131,7 +131,7 @@ def test():
           time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(start)))
     theta1, theta2 = gradientDescent(
         training_imgs, training_labels_matrix, theta1, theta2,
-        input_layer_size, hidden_layer_size, num_labels, 1, 1500, 0.03)
+        input_layer_size, hidden_layer_size, num_labels, 1, 3000, 0.01)
     print('执行时间：', time.time() - start)
     print('当前时间:',
           time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())))
