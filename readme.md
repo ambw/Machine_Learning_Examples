@@ -1,7 +1,6 @@
 # Machine Learning Examples
 
-an **Python** implement for tasks in *Machine Learning*  
+Implementation for algorithms in *Machine Learning* in Python3 
 
-## NeuralNetwork
-
-Neural Network build for classifying figures.
+- [x] [基于批量梯度下降的线性回归]('./linear_regression/gradtient_descent')
+- [x] [基于正规方程的线性回归]('./linear_regression/normal_theta')
